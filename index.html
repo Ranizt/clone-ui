@@ -3,9 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
   </head>
   <body>
-    Hello World!
+    <div id="page">
+      <div id="page-content">
+        <div id="left-side">
+          <img
+            src="https://images.unsplash.com/photo-1524135329990-07660cd5bf10?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Sign up image"
+          />
+        </div>
+        <main id="right-side">
+          <header><h3>Create your Free Account</h3></header>
+          <form>
+            <span class="inputFieldContainer">
+              <label for="personName">Full Name</label> <br />
+              <input
+                class="intputField"
+                type="text"
+                id="personName"
+                name="personName"
+                value=""
+                placeholder="Enter your Full Name here"
+              />
+              <br />
+            </span class="inputFieldContainer">
+            <span class="inputFieldContainer">
+              <label for="personEmail">Email</label> <br />
+              <input
+                class="intputField"
+                type="email"
+                id="personEmail"
+                name="personEmail"
+                value=""
+                placeholder="Enter your Email here"
+              />
+              <br />
+            </span class="inputFieldContainer">
+            <span class="inputFieldContainer">
+              <label for="personPass">Password</label> <br />
+              <input
+                class="intputField"
+                type="password"
+                id="personPass"
+                name="personPass"
+                value=""
+                placeholder="Enter your Password here"
+              />
+              <br />
+            </span class="inputFieldContainer">
+            <input class="inputSubmit" type="submit" value="Create Account" />
+          </form>
+          <p id="extraQuest">
+            <span id="question">Already have an account? </span>
+            <a id="login" href="">Login</a>
+          </p>
+          <p id="or">-OR-</p>
+          <button class="sign-up">
+            <div class="button-container">
+              <img
+                src="https://freelogopng.com/images/all_img/1657952641google-logo-png-image.png"
+                alt="Google logo"
+              />
+              <span>Sign up with Google</span>
+            </div>
+          </button>
+          <button class="sign-up">
+            <div class="button-container">
+              <img
+                src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+                alt="GitHub logo"
+              />
+              <span>Sign up with GitHub</span>
+            </div>
+          </button>
+          <footer>Reserve direct to Leo Barreto</footer>
+        </main>
+      </div>
+    </div>
   </body>
 </html>
